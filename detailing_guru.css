@@ -1,0 +1,182 @@
+header {
+  color: #FCFFF5;
+  background-color: #3E606F;
+  background-image: url(pictures/logo.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 150px;
+  box-shadow: 0 10px 5px -5px #002F2F;
+  border-radius: 25px 25px 0 0;
+}
+
+header h1 {
+  font-size: 36pt;
+  padding: 0;
+  margin: 10px 0 0 10px;
+}
+
+header h2 {
+  margin-left: 10px;
+  color: #193441;
+  font-weight: lighter;
+}
+
+#wrapper {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #193441;
+  border-radius: 25px;
+}
+
+
+nav {
+  color: #FCFFF5;
+  background-color: #193441;
+  padding: 0;
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  width: 300px;
+  border-right: 1px solid;
+  float: left;
+}
+
+main {
+  width: auto;
+  margin-left: 310px;
+  background-color: #FCFFF5;
+  
+}
+
+main img {
+  float: right;
+}
+
+main p {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+  padding: 5px 10px;
+  font-size: 42pt;
+  line-height: 36pt;
+  font-weight: lighter;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 5px;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FCFFF5;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  padding-left: 10px;
+}
+
+nav a:hover {
+  color: #91AA9D;
+  background-color: #193441;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+footer {
+  color: #FCFFF5;
+  background-color: #193441;
+  margin-left: 20px;
+  font-size: 10pt;
+  font-style: italic;
+  border-radius: 0 0 10px 10px;
+}
+
+footer a {
+  color: #FCFFF5;
+}
+
+.arrow img {
+  float: left;
+  padding-right: 5px;
+}
+
+
+.dropdown {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.dropdown::after {
+  content: "⏵";
+}
+
+.dropdown ul {
+  padding: 0;
+  margin: 0 ;
+  display: none;
+  position: absolute;
+  z-index: 1001;
+}
+
+.dropdown li {
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  font-size: 11pt;
+}
+
+.dropdown:hover ul, .dropdown a:focus + ul {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+main table {
+  border: 1px solid #002F2F;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+main tr {
+  border: 1px solid #002F2F;
+  padding: 5px;
+}
+
+main th:first-of-type{
+  border: 1px solid #FCFFF5;
+  padding: 5px;
+  color: #FCFFF5;
+  background-color: #002F2F;
+  text-align: left;
+}
+
+form {
+  display: block;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  display: block;
+  width: 125px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+textarea {
+  height: 75px;
+}
